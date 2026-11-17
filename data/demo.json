@@ -1,0 +1,59 @@
+[
+  [
+    "memberships.enroll",
+    {
+      "id": "m1",
+      "person": "p1",
+      "household": "f1",
+      "venue": "north",
+      "start": "2026-09-01",
+      "end": "2027-09-01",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v1",
+      "membership": "m1",
+      "person": "p2",
+      "at": "2026-10-01",
+      "venue": "north"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c1",
+      "memberships": [
+        "m1"
+      ],
+      "at": "2026-10-02",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c1",
+      "membership": "m1",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m1",
+      "start": "2026-11-10",
+      "end": "2026-12-10"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m1",
+      "venue": "south",
+      "effective": "2026-12-10"
+    }
+  ]
+]

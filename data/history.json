@@ -1,0 +1,10244 @@
+[
+  [
+    "memberships.enroll",
+    {
+      "id": "m0",
+      "person": "p0",
+      "household": "h0",
+      "venue": "v0",
+      "start": "2026-07-01",
+      "end": "2026-08-30",
+      "kind": "family"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m0",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v0:21",
+      "membership": "m0",
+      "person": "p0",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v0:28",
+      "membership": "m0",
+      "person": "p0",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v0:35",
+      "membership": "m0",
+      "person": "p0",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m0",
+      "venue": "v1",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c0",
+      "memberships": [
+        "m0"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c0",
+      "membership": "m0",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m1",
+      "person": "p1",
+      "household": "h0",
+      "venue": "v1",
+      "start": "2026-07-02",
+      "end": "2026-08-31",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v1:28",
+      "membership": "m1",
+      "person": "p1",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v1:49",
+      "membership": "m1",
+      "person": "p1",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m2",
+      "person": "p2",
+      "household": "h1",
+      "venue": "v2",
+      "start": "2026-07-03",
+      "end": "2026-09-01",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v2:21",
+      "membership": "m2",
+      "person": "p2",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v2:42",
+      "membership": "m2",
+      "person": "p2",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v2:49",
+      "membership": "m2",
+      "person": "p2",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m3",
+      "person": "p3",
+      "household": "h1",
+      "venue": "v0",
+      "start": "2026-07-04",
+      "end": "2026-09-02",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v3:28",
+      "membership": "m3",
+      "person": "p3",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v3:49",
+      "membership": "m3",
+      "person": "p3",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v3:56",
+      "membership": "m3",
+      "person": "p3",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c3",
+      "memberships": [
+        "m3"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c3",
+      "membership": "m3",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m4",
+      "person": "p4",
+      "household": "h2",
+      "venue": "v1",
+      "start": "2026-07-05",
+      "end": "2026-09-03",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v4:21",
+      "membership": "m4",
+      "person": "p4",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v4:28",
+      "membership": "m4",
+      "person": "p4",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v4:49",
+      "membership": "m4",
+      "person": "p4",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m5",
+      "person": "p5",
+      "household": "h2",
+      "venue": "v2",
+      "start": "2026-07-06",
+      "end": "2026-09-04",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v5:35",
+      "membership": "m5",
+      "person": "p5",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v5:49",
+      "membership": "m5",
+      "person": "p5",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v5:56",
+      "membership": "m5",
+      "person": "p5",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m6",
+      "person": "p6",
+      "household": "h3",
+      "venue": "v0",
+      "start": "2026-07-07",
+      "end": "2026-09-05",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v6:21",
+      "membership": "m6",
+      "person": "p6",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v6:35",
+      "membership": "m6",
+      "person": "p6",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v6:42",
+      "membership": "m6",
+      "person": "p6",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v6:49",
+      "membership": "m6",
+      "person": "p6",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c6",
+      "memberships": [
+        "m6"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c6",
+      "membership": "m6",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m7",
+      "person": "p7",
+      "household": "h3",
+      "venue": "v1",
+      "start": "2026-07-08",
+      "end": "2026-09-06",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m7",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v7:21",
+      "membership": "m7",
+      "person": "p7",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v7:35",
+      "membership": "m7",
+      "person": "p7",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v7:56",
+      "membership": "m7",
+      "person": "p7",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m8",
+      "person": "p8",
+      "household": "h4",
+      "venue": "v2",
+      "start": "2026-07-09",
+      "end": "2026-09-07",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v8:21",
+      "membership": "m8",
+      "person": "p8",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v8:28",
+      "membership": "m8",
+      "person": "p8",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v8:35",
+      "membership": "m8",
+      "person": "p8",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v8:49",
+      "membership": "m8",
+      "person": "p8",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v8:56",
+      "membership": "m8",
+      "person": "p8",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m8",
+      "venue": "v0",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m9",
+      "person": "p9",
+      "household": "h4",
+      "venue": "v0",
+      "start": "2026-07-10",
+      "end": "2026-09-08",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v9:49",
+      "membership": "m9",
+      "person": "p9",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v9:56",
+      "membership": "m9",
+      "person": "p9",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c9",
+      "memberships": [
+        "m9"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c9",
+      "membership": "m9",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m10",
+      "person": "p10",
+      "household": "h5",
+      "venue": "v1",
+      "start": "2026-07-11",
+      "end": "2026-09-09",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v10:28",
+      "membership": "m10",
+      "person": "p10",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v10:35",
+      "membership": "m10",
+      "person": "p10",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v10:42",
+      "membership": "m10",
+      "person": "p10",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v10:49",
+      "membership": "m10",
+      "person": "p10",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v10:56",
+      "membership": "m10",
+      "person": "p10",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m11",
+      "person": "p11",
+      "household": "h5",
+      "venue": "v2",
+      "start": "2026-07-12",
+      "end": "2026-09-10",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v11:21",
+      "membership": "m11",
+      "person": "p11",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v11:28",
+      "membership": "m11",
+      "person": "p11",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v11:35",
+      "membership": "m11",
+      "person": "p11",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v11:49",
+      "membership": "m11",
+      "person": "p11",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v11:56",
+      "membership": "m11",
+      "person": "p11",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m12",
+      "person": "p12",
+      "household": "h6",
+      "venue": "v0",
+      "start": "2026-07-13",
+      "end": "2026-09-11",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v12:21",
+      "membership": "m12",
+      "person": "p12",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v12:28",
+      "membership": "m12",
+      "person": "p12",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v12:35",
+      "membership": "m12",
+      "person": "p12",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v12:56",
+      "membership": "m12",
+      "person": "p12",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c12",
+      "memberships": [
+        "m12"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c12",
+      "membership": "m12",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m13",
+      "person": "p13",
+      "household": "h6",
+      "venue": "v1",
+      "start": "2026-07-14",
+      "end": "2026-09-12",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v13:21",
+      "membership": "m13",
+      "person": "p13",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v13:35",
+      "membership": "m13",
+      "person": "p13",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v13:49",
+      "membership": "m13",
+      "person": "p13",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v13:56",
+      "membership": "m13",
+      "person": "p13",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m14",
+      "person": "p14",
+      "household": "h7",
+      "venue": "v2",
+      "start": "2026-07-15",
+      "end": "2026-09-13",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m14",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v14:21",
+      "membership": "m14",
+      "person": "p14",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v14:28",
+      "membership": "m14",
+      "person": "p14",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m15",
+      "person": "p15",
+      "household": "h7",
+      "venue": "v0",
+      "start": "2026-07-16",
+      "end": "2026-09-14",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v15:28",
+      "membership": "m15",
+      "person": "p15",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v15:42",
+      "membership": "m15",
+      "person": "p15",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c15",
+      "memberships": [
+        "m15"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c15",
+      "membership": "m15",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m16",
+      "person": "p16",
+      "household": "h8",
+      "venue": "v1",
+      "start": "2026-07-17",
+      "end": "2026-09-15",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v16:28",
+      "membership": "m16",
+      "person": "p16",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v16:42",
+      "membership": "m16",
+      "person": "p16",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v16:49",
+      "membership": "m16",
+      "person": "p16",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m16",
+      "venue": "v2",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m17",
+      "person": "p17",
+      "household": "h8",
+      "venue": "v2",
+      "start": "2026-07-18",
+      "end": "2026-09-16",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v17:21",
+      "membership": "m17",
+      "person": "p17",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v17:28",
+      "membership": "m17",
+      "person": "p17",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v17:35",
+      "membership": "m17",
+      "person": "p17",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v17:49",
+      "membership": "m17",
+      "person": "p17",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v17:56",
+      "membership": "m17",
+      "person": "p17",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m18",
+      "person": "p18",
+      "household": "h9",
+      "venue": "v0",
+      "start": "2026-07-19",
+      "end": "2026-09-17",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v18:21",
+      "membership": "m18",
+      "person": "p18",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v18:49",
+      "membership": "m18",
+      "person": "p18",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v18:56",
+      "membership": "m18",
+      "person": "p18",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c18",
+      "memberships": [
+        "m18"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c18",
+      "membership": "m18",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m19",
+      "person": "p19",
+      "household": "h9",
+      "venue": "v1",
+      "start": "2026-07-20",
+      "end": "2026-09-18",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v19:21",
+      "membership": "m19",
+      "person": "p19",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v19:28",
+      "membership": "m19",
+      "person": "p19",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v19:35",
+      "membership": "m19",
+      "person": "p19",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v19:49",
+      "membership": "m19",
+      "person": "p19",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v19:56",
+      "membership": "m19",
+      "person": "p19",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m20",
+      "person": "p20",
+      "household": "h10",
+      "venue": "v2",
+      "start": "2026-07-01",
+      "end": "2026-09-19",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v20:21",
+      "membership": "m20",
+      "person": "p20",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v20:28",
+      "membership": "m20",
+      "person": "p20",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v20:35",
+      "membership": "m20",
+      "person": "p20",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v20:42",
+      "membership": "m20",
+      "person": "p20",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v20:49",
+      "membership": "m20",
+      "person": "p20",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m21",
+      "person": "p21",
+      "household": "h10",
+      "venue": "v0",
+      "start": "2026-07-02",
+      "end": "2026-09-20",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m21",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v21:35",
+      "membership": "m21",
+      "person": "p21",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v21:56",
+      "membership": "m21",
+      "person": "p21",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c21",
+      "memberships": [
+        "m21"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c21",
+      "membership": "m21",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m22",
+      "person": "p22",
+      "household": "h11",
+      "venue": "v1",
+      "start": "2026-07-03",
+      "end": "2026-09-21",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v22:21",
+      "membership": "m22",
+      "person": "p22",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v22:28",
+      "membership": "m22",
+      "person": "p22",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v22:49",
+      "membership": "m22",
+      "person": "p22",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v22:56",
+      "membership": "m22",
+      "person": "p22",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m23",
+      "person": "p23",
+      "household": "h11",
+      "venue": "v2",
+      "start": "2026-07-04",
+      "end": "2026-09-22",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v23:21",
+      "membership": "m23",
+      "person": "p23",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v23:28",
+      "membership": "m23",
+      "person": "p23",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v23:35",
+      "membership": "m23",
+      "person": "p23",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v23:49",
+      "membership": "m23",
+      "person": "p23",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v23:56",
+      "membership": "m23",
+      "person": "p23",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m24",
+      "person": "p24",
+      "household": "h12",
+      "venue": "v0",
+      "start": "2026-07-05",
+      "end": "2026-09-23",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v24:21",
+      "membership": "m24",
+      "person": "p24",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v24:35",
+      "membership": "m24",
+      "person": "p24",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v24:42",
+      "membership": "m24",
+      "person": "p24",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v24:56",
+      "membership": "m24",
+      "person": "p24",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m24",
+      "venue": "v1",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c24",
+      "memberships": [
+        "m24"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c24",
+      "membership": "m24",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m25",
+      "person": "p25",
+      "household": "h12",
+      "venue": "v1",
+      "start": "2026-07-06",
+      "end": "2026-09-24",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v25:21",
+      "membership": "m25",
+      "person": "p25",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m26",
+      "person": "p26",
+      "household": "h13",
+      "venue": "v2",
+      "start": "2026-07-07",
+      "end": "2026-09-25",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v26:35",
+      "membership": "m26",
+      "person": "p26",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v26:42",
+      "membership": "m26",
+      "person": "p26",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v26:49",
+      "membership": "m26",
+      "person": "p26",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v26:56",
+      "membership": "m26",
+      "person": "p26",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m27",
+      "person": "p27",
+      "household": "h13",
+      "venue": "v0",
+      "start": "2026-07-08",
+      "end": "2026-09-26",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v27:28",
+      "membership": "m27",
+      "person": "p27",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v27:49",
+      "membership": "m27",
+      "person": "p27",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v27:56",
+      "membership": "m27",
+      "person": "p27",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c27",
+      "memberships": [
+        "m27"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c27",
+      "membership": "m27",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m28",
+      "person": "p28",
+      "household": "h14",
+      "venue": "v1",
+      "start": "2026-07-09",
+      "end": "2026-09-27",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m28",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v28:21",
+      "membership": "m28",
+      "person": "p28",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v28:35",
+      "membership": "m28",
+      "person": "p28",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v28:56",
+      "membership": "m28",
+      "person": "p28",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m29",
+      "person": "p29",
+      "household": "h14",
+      "venue": "v2",
+      "start": "2026-07-10",
+      "end": "2026-09-28",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v29:28",
+      "membership": "m29",
+      "person": "p29",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v29:35",
+      "membership": "m29",
+      "person": "p29",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v29:42",
+      "membership": "m29",
+      "person": "p29",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v29:49",
+      "membership": "m29",
+      "person": "p29",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v29:56",
+      "membership": "m29",
+      "person": "p29",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m30",
+      "person": "p30",
+      "household": "h15",
+      "venue": "v0",
+      "start": "2026-07-11",
+      "end": "2026-09-29",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v30:35",
+      "membership": "m30",
+      "person": "p30",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v30:42",
+      "membership": "m30",
+      "person": "p30",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v30:49",
+      "membership": "m30",
+      "person": "p30",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c30",
+      "memberships": [
+        "m30"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c30",
+      "membership": "m30",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m31",
+      "person": "p31",
+      "household": "h15",
+      "venue": "v1",
+      "start": "2026-07-12",
+      "end": "2026-09-30",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v31:21",
+      "membership": "m31",
+      "person": "p31",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v31:28",
+      "membership": "m31",
+      "person": "p31",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v31:42",
+      "membership": "m31",
+      "person": "p31",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v31:49",
+      "membership": "m31",
+      "person": "p31",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m32",
+      "person": "p32",
+      "household": "h16",
+      "venue": "v2",
+      "start": "2026-07-13",
+      "end": "2026-10-01",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v32:49",
+      "membership": "m32",
+      "person": "p32",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m32",
+      "venue": "v0",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m33",
+      "person": "p33",
+      "household": "h16",
+      "venue": "v0",
+      "start": "2026-07-14",
+      "end": "2026-10-02",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v33:21",
+      "membership": "m33",
+      "person": "p33",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v33:28",
+      "membership": "m33",
+      "person": "p33",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v33:35",
+      "membership": "m33",
+      "person": "p33",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v33:42",
+      "membership": "m33",
+      "person": "p33",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v33:49",
+      "membership": "m33",
+      "person": "p33",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v33:56",
+      "membership": "m33",
+      "person": "p33",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c33",
+      "memberships": [
+        "m33"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c33",
+      "membership": "m33",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m34",
+      "person": "p34",
+      "household": "h17",
+      "venue": "v1",
+      "start": "2026-07-15",
+      "end": "2026-10-03",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v34:21",
+      "membership": "m34",
+      "person": "p34",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v34:49",
+      "membership": "m34",
+      "person": "p34",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m35",
+      "person": "p35",
+      "household": "h17",
+      "venue": "v2",
+      "start": "2026-07-16",
+      "end": "2026-10-04",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m35",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v35:28",
+      "membership": "m35",
+      "person": "p35",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v35:35",
+      "membership": "m35",
+      "person": "p35",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v35:56",
+      "membership": "m35",
+      "person": "p35",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m36",
+      "person": "p36",
+      "household": "h18",
+      "venue": "v0",
+      "start": "2026-07-17",
+      "end": "2026-10-05",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v36:28",
+      "membership": "m36",
+      "person": "p36",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v36:35",
+      "membership": "m36",
+      "person": "p36",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v36:49",
+      "membership": "m36",
+      "person": "p36",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c36",
+      "memberships": [
+        "m36"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c36",
+      "membership": "m36",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m37",
+      "person": "p37",
+      "household": "h18",
+      "venue": "v1",
+      "start": "2026-07-18",
+      "end": "2026-10-06",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v37:21",
+      "membership": "m37",
+      "person": "p37",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v37:28",
+      "membership": "m37",
+      "person": "p37",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v37:35",
+      "membership": "m37",
+      "person": "p37",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v37:42",
+      "membership": "m37",
+      "person": "p37",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v37:49",
+      "membership": "m37",
+      "person": "p37",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v37:56",
+      "membership": "m37",
+      "person": "p37",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m38",
+      "person": "p38",
+      "household": "h19",
+      "venue": "v2",
+      "start": "2026-07-19",
+      "end": "2026-10-07",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v38:21",
+      "membership": "m38",
+      "person": "p38",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v38:28",
+      "membership": "m38",
+      "person": "p38",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v38:49",
+      "membership": "m38",
+      "person": "p38",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v38:56",
+      "membership": "m38",
+      "person": "p38",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m39",
+      "person": "p39",
+      "household": "h19",
+      "venue": "v0",
+      "start": "2026-07-20",
+      "end": "2026-10-08",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v39:42",
+      "membership": "m39",
+      "person": "p39",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v39:49",
+      "membership": "m39",
+      "person": "p39",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v39:56",
+      "membership": "m39",
+      "person": "p39",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c39",
+      "memberships": [
+        "m39"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c39",
+      "membership": "m39",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m40",
+      "person": "p40",
+      "household": "h20",
+      "venue": "v1",
+      "start": "2026-07-01",
+      "end": "2026-10-09",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v40:49",
+      "membership": "m40",
+      "person": "p40",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v40:56",
+      "membership": "m40",
+      "person": "p40",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m40",
+      "venue": "v2",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m41",
+      "person": "p41",
+      "household": "h20",
+      "venue": "v2",
+      "start": "2026-07-02",
+      "end": "2026-10-10",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v41:21",
+      "membership": "m41",
+      "person": "p41",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v41:28",
+      "membership": "m41",
+      "person": "p41",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v41:35",
+      "membership": "m41",
+      "person": "p41",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v41:42",
+      "membership": "m41",
+      "person": "p41",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v41:56",
+      "membership": "m41",
+      "person": "p41",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m42",
+      "person": "p42",
+      "household": "h21",
+      "venue": "v0",
+      "start": "2026-07-03",
+      "end": "2026-10-11",
+      "kind": "family"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m42",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v42:21",
+      "membership": "m42",
+      "person": "p42",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v42:28",
+      "membership": "m42",
+      "person": "p42",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v42:35",
+      "membership": "m42",
+      "person": "p42",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v42:56",
+      "membership": "m42",
+      "person": "p42",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c42",
+      "memberships": [
+        "m42"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c42",
+      "membership": "m42",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m43",
+      "person": "p43",
+      "household": "h21",
+      "venue": "v1",
+      "start": "2026-07-04",
+      "end": "2026-10-12",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v43:21",
+      "membership": "m43",
+      "person": "p43",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v43:28",
+      "membership": "m43",
+      "person": "p43",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v43:49",
+      "membership": "m43",
+      "person": "p43",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m44",
+      "person": "p44",
+      "household": "h22",
+      "venue": "v2",
+      "start": "2026-07-05",
+      "end": "2026-10-13",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v44:28",
+      "membership": "m44",
+      "person": "p44",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v44:35",
+      "membership": "m44",
+      "person": "p44",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v44:49",
+      "membership": "m44",
+      "person": "p44",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m45",
+      "person": "p45",
+      "household": "h22",
+      "venue": "v0",
+      "start": "2026-07-06",
+      "end": "2026-10-14",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v45:21",
+      "membership": "m45",
+      "person": "p45",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v45:28",
+      "membership": "m45",
+      "person": "p45",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v45:42",
+      "membership": "m45",
+      "person": "p45",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c45",
+      "memberships": [
+        "m45"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c45",
+      "membership": "m45",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m46",
+      "person": "p46",
+      "household": "h23",
+      "venue": "v1",
+      "start": "2026-07-07",
+      "end": "2026-10-15",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v46:21",
+      "membership": "m46",
+      "person": "p46",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v46:28",
+      "membership": "m46",
+      "person": "p46",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v46:42",
+      "membership": "m46",
+      "person": "p46",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v46:49",
+      "membership": "m46",
+      "person": "p46",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v46:56",
+      "membership": "m46",
+      "person": "p46",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m47",
+      "person": "p47",
+      "household": "h23",
+      "venue": "v2",
+      "start": "2026-07-08",
+      "end": "2026-10-16",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v47:28",
+      "membership": "m47",
+      "person": "p47",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v47:35",
+      "membership": "m47",
+      "person": "p47",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v47:42",
+      "membership": "m47",
+      "person": "p47",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v47:49",
+      "membership": "m47",
+      "person": "p47",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m48",
+      "person": "p48",
+      "household": "h24",
+      "venue": "v0",
+      "start": "2026-07-09",
+      "end": "2026-10-17",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v48:21",
+      "membership": "m48",
+      "person": "p48",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v48:28",
+      "membership": "m48",
+      "person": "p48",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v48:35",
+      "membership": "m48",
+      "person": "p48",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v48:49",
+      "membership": "m48",
+      "person": "p48",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v48:56",
+      "membership": "m48",
+      "person": "p48",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m48",
+      "venue": "v1",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c48",
+      "memberships": [
+        "m48"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c48",
+      "membership": "m48",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m49",
+      "person": "p49",
+      "household": "h24",
+      "venue": "v1",
+      "start": "2026-07-10",
+      "end": "2026-10-18",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m49",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v49:21",
+      "membership": "m49",
+      "person": "p49",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v49:28",
+      "membership": "m49",
+      "person": "p49",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v49:56",
+      "membership": "m49",
+      "person": "p49",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m50",
+      "person": "p50",
+      "household": "h25",
+      "venue": "v2",
+      "start": "2026-07-11",
+      "end": "2026-10-19",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v50:21",
+      "membership": "m50",
+      "person": "p50",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v50:42",
+      "membership": "m50",
+      "person": "p50",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m51",
+      "person": "p51",
+      "household": "h25",
+      "venue": "v0",
+      "start": "2026-07-12",
+      "end": "2026-10-20",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v51:21",
+      "membership": "m51",
+      "person": "p51",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v51:35",
+      "membership": "m51",
+      "person": "p51",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v51:56",
+      "membership": "m51",
+      "person": "p51",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c51",
+      "memberships": [
+        "m51"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c51",
+      "membership": "m51",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m52",
+      "person": "p52",
+      "household": "h26",
+      "venue": "v1",
+      "start": "2026-07-13",
+      "end": "2026-10-21",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v52:21",
+      "membership": "m52",
+      "person": "p52",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v52:28",
+      "membership": "m52",
+      "person": "p52",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v52:35",
+      "membership": "m52",
+      "person": "p52",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v52:42",
+      "membership": "m52",
+      "person": "p52",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v52:49",
+      "membership": "m52",
+      "person": "p52",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v52:56",
+      "membership": "m52",
+      "person": "p52",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m53",
+      "person": "p53",
+      "household": "h26",
+      "venue": "v2",
+      "start": "2026-07-14",
+      "end": "2026-10-22",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v53:21",
+      "membership": "m53",
+      "person": "p53",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v53:42",
+      "membership": "m53",
+      "person": "p53",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v53:49",
+      "membership": "m53",
+      "person": "p53",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v53:56",
+      "membership": "m53",
+      "person": "p53",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m54",
+      "person": "p54",
+      "household": "h27",
+      "venue": "v0",
+      "start": "2026-07-15",
+      "end": "2026-10-23",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v54:21",
+      "membership": "m54",
+      "person": "p54",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v54:28",
+      "membership": "m54",
+      "person": "p54",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v54:49",
+      "membership": "m54",
+      "person": "p54",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v54:56",
+      "membership": "m54",
+      "person": "p54",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c54",
+      "memberships": [
+        "m54"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c54",
+      "membership": "m54",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m55",
+      "person": "p55",
+      "household": "h27",
+      "venue": "v1",
+      "start": "2026-07-16",
+      "end": "2026-10-24",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v55:21",
+      "membership": "m55",
+      "person": "p55",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v55:28",
+      "membership": "m55",
+      "person": "p55",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v55:35",
+      "membership": "m55",
+      "person": "p55",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v55:42",
+      "membership": "m55",
+      "person": "p55",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v55:49",
+      "membership": "m55",
+      "person": "p55",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m56",
+      "person": "p56",
+      "household": "h28",
+      "venue": "v2",
+      "start": "2026-07-17",
+      "end": "2026-10-25",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m56",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v56:21",
+      "membership": "m56",
+      "person": "p56",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v56:28",
+      "membership": "m56",
+      "person": "p56",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m56",
+      "venue": "v0",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m57",
+      "person": "p57",
+      "household": "h28",
+      "venue": "v0",
+      "start": "2026-07-18",
+      "end": "2026-10-26",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v57:21",
+      "membership": "m57",
+      "person": "p57",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v57:28",
+      "membership": "m57",
+      "person": "p57",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v57:35",
+      "membership": "m57",
+      "person": "p57",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v57:49",
+      "membership": "m57",
+      "person": "p57",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v57:56",
+      "membership": "m57",
+      "person": "p57",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c57",
+      "memberships": [
+        "m57"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c57",
+      "membership": "m57",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m58",
+      "person": "p58",
+      "household": "h29",
+      "venue": "v1",
+      "start": "2026-07-19",
+      "end": "2026-10-27",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v58:21",
+      "membership": "m58",
+      "person": "p58",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v58:28",
+      "membership": "m58",
+      "person": "p58",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v58:35",
+      "membership": "m58",
+      "person": "p58",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v58:42",
+      "membership": "m58",
+      "person": "p58",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v58:56",
+      "membership": "m58",
+      "person": "p58",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m59",
+      "person": "p59",
+      "household": "h29",
+      "venue": "v2",
+      "start": "2026-07-20",
+      "end": "2026-10-28",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v59:21",
+      "membership": "m59",
+      "person": "p59",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v59:28",
+      "membership": "m59",
+      "person": "p59",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v59:42",
+      "membership": "m59",
+      "person": "p59",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v59:56",
+      "membership": "m59",
+      "person": "p59",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m60",
+      "person": "p60",
+      "household": "h30",
+      "venue": "v0",
+      "start": "2026-07-01",
+      "end": "2026-10-29",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v60:21",
+      "membership": "m60",
+      "person": "p60",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v60:28",
+      "membership": "m60",
+      "person": "p60",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v60:35",
+      "membership": "m60",
+      "person": "p60",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v60:42",
+      "membership": "m60",
+      "person": "p60",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v60:56",
+      "membership": "m60",
+      "person": "p60",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c60",
+      "memberships": [
+        "m60"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c60",
+      "membership": "m60",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m61",
+      "person": "p61",
+      "household": "h30",
+      "venue": "v1",
+      "start": "2026-07-02",
+      "end": "2026-10-30",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v61:21",
+      "membership": "m61",
+      "person": "p61",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v61:28",
+      "membership": "m61",
+      "person": "p61",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v61:35",
+      "membership": "m61",
+      "person": "p61",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v61:42",
+      "membership": "m61",
+      "person": "p61",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v61:49",
+      "membership": "m61",
+      "person": "p61",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m62",
+      "person": "p62",
+      "household": "h31",
+      "venue": "v2",
+      "start": "2026-07-03",
+      "end": "2026-10-31",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v62:35",
+      "membership": "m62",
+      "person": "p62",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v62:49",
+      "membership": "m62",
+      "person": "p62",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v62:56",
+      "membership": "m62",
+      "person": "p62",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m63",
+      "person": "p63",
+      "household": "h31",
+      "venue": "v0",
+      "start": "2026-07-04",
+      "end": "2026-11-01",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m63",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v63:21",
+      "membership": "m63",
+      "person": "p63",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v63:35",
+      "membership": "m63",
+      "person": "p63",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c63",
+      "memberships": [
+        "m63"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c63",
+      "membership": "m63",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m64",
+      "person": "p64",
+      "household": "h32",
+      "venue": "v1",
+      "start": "2026-07-05",
+      "end": "2026-11-02",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v64:21",
+      "membership": "m64",
+      "person": "p64",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v64:28",
+      "membership": "m64",
+      "person": "p64",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v64:49",
+      "membership": "m64",
+      "person": "p64",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v64:56",
+      "membership": "m64",
+      "person": "p64",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m64",
+      "venue": "v2",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m65",
+      "person": "p65",
+      "household": "h32",
+      "venue": "v2",
+      "start": "2026-07-06",
+      "end": "2026-11-03",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v65:35",
+      "membership": "m65",
+      "person": "p65",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v65:42",
+      "membership": "m65",
+      "person": "p65",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v65:49",
+      "membership": "m65",
+      "person": "p65",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m66",
+      "person": "p66",
+      "household": "h33",
+      "venue": "v0",
+      "start": "2026-07-07",
+      "end": "2026-11-04",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v66:28",
+      "membership": "m66",
+      "person": "p66",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v66:49",
+      "membership": "m66",
+      "person": "p66",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v66:56",
+      "membership": "m66",
+      "person": "p66",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c66",
+      "memberships": [
+        "m66"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c66",
+      "membership": "m66",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m67",
+      "person": "p67",
+      "household": "h33",
+      "venue": "v1",
+      "start": "2026-07-08",
+      "end": "2026-11-05",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v67:21",
+      "membership": "m67",
+      "person": "p67",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v67:42",
+      "membership": "m67",
+      "person": "p67",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v67:56",
+      "membership": "m67",
+      "person": "p67",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m68",
+      "person": "p68",
+      "household": "h34",
+      "venue": "v2",
+      "start": "2026-07-09",
+      "end": "2026-11-06",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v68:21",
+      "membership": "m68",
+      "person": "p68",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v68:49",
+      "membership": "m68",
+      "person": "p68",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v68:56",
+      "membership": "m68",
+      "person": "p68",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m69",
+      "person": "p69",
+      "household": "h34",
+      "venue": "v0",
+      "start": "2026-07-10",
+      "end": "2026-11-07",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v69:21",
+      "membership": "m69",
+      "person": "p69",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v69:49",
+      "membership": "m69",
+      "person": "p69",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v69:56",
+      "membership": "m69",
+      "person": "p69",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c69",
+      "memberships": [
+        "m69"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c69",
+      "membership": "m69",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m70",
+      "person": "p70",
+      "household": "h35",
+      "venue": "v1",
+      "start": "2026-07-11",
+      "end": "2026-11-08",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m70",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v70:28",
+      "membership": "m70",
+      "person": "p70",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v70:35",
+      "membership": "m70",
+      "person": "p70",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m71",
+      "person": "p71",
+      "household": "h35",
+      "venue": "v2",
+      "start": "2026-07-12",
+      "end": "2026-11-09",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v71:49",
+      "membership": "m71",
+      "person": "p71",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m72",
+      "person": "p72",
+      "household": "h36",
+      "venue": "v0",
+      "start": "2026-07-13",
+      "end": "2026-11-10",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v72:21",
+      "membership": "m72",
+      "person": "p72",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v72:28",
+      "membership": "m72",
+      "person": "p72",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v72:35",
+      "membership": "m72",
+      "person": "p72",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v72:42",
+      "membership": "m72",
+      "person": "p72",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v72:49",
+      "membership": "m72",
+      "person": "p72",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m72",
+      "venue": "v1",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c72",
+      "memberships": [
+        "m72"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c72",
+      "membership": "m72",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m73",
+      "person": "p73",
+      "household": "h36",
+      "venue": "v1",
+      "start": "2026-07-14",
+      "end": "2026-11-11",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v73:21",
+      "membership": "m73",
+      "person": "p73",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v73:35",
+      "membership": "m73",
+      "person": "p73",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v73:42",
+      "membership": "m73",
+      "person": "p73",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v73:49",
+      "membership": "m73",
+      "person": "p73",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v73:56",
+      "membership": "m73",
+      "person": "p73",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m74",
+      "person": "p74",
+      "household": "h37",
+      "venue": "v2",
+      "start": "2026-07-15",
+      "end": "2026-11-12",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v74:21",
+      "membership": "m74",
+      "person": "p74",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v74:49",
+      "membership": "m74",
+      "person": "p74",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v74:56",
+      "membership": "m74",
+      "person": "p74",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m75",
+      "person": "p75",
+      "household": "h37",
+      "venue": "v0",
+      "start": "2026-07-16",
+      "end": "2026-11-13",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v75:21",
+      "membership": "m75",
+      "person": "p75",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v75:35",
+      "membership": "m75",
+      "person": "p75",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v75:49",
+      "membership": "m75",
+      "person": "p75",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v75:56",
+      "membership": "m75",
+      "person": "p75",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c75",
+      "memberships": [
+        "m75"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c75",
+      "membership": "m75",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m76",
+      "person": "p76",
+      "household": "h38",
+      "venue": "v1",
+      "start": "2026-07-17",
+      "end": "2026-11-14",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v76:21",
+      "membership": "m76",
+      "person": "p76",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v76:28",
+      "membership": "m76",
+      "person": "p76",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v76:35",
+      "membership": "m76",
+      "person": "p76",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v76:42",
+      "membership": "m76",
+      "person": "p76",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v76:56",
+      "membership": "m76",
+      "person": "p76",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m77",
+      "person": "p77",
+      "household": "h38",
+      "venue": "v2",
+      "start": "2026-07-18",
+      "end": "2026-11-15",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m77",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v77:21",
+      "membership": "m77",
+      "person": "p77",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v77:56",
+      "membership": "m77",
+      "person": "p77",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m78",
+      "person": "p78",
+      "household": "h39",
+      "venue": "v0",
+      "start": "2026-07-19",
+      "end": "2026-11-16",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v78:28",
+      "membership": "m78",
+      "person": "p78",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v78:35",
+      "membership": "m78",
+      "person": "p78",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v78:42",
+      "membership": "m78",
+      "person": "p78",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v78:49",
+      "membership": "m78",
+      "person": "p78",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v78:56",
+      "membership": "m78",
+      "person": "p78",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c78",
+      "memberships": [
+        "m78"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c78",
+      "membership": "m78",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m79",
+      "person": "p79",
+      "household": "h39",
+      "venue": "v1",
+      "start": "2026-07-20",
+      "end": "2026-11-17",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v79:21",
+      "membership": "m79",
+      "person": "p79",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v79:28",
+      "membership": "m79",
+      "person": "p79",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m80",
+      "person": "p80",
+      "household": "h40",
+      "venue": "v2",
+      "start": "2026-07-01",
+      "end": "2026-11-18",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v80:21",
+      "membership": "m80",
+      "person": "p80",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v80:28",
+      "membership": "m80",
+      "person": "p80",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v80:42",
+      "membership": "m80",
+      "person": "p80",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v80:49",
+      "membership": "m80",
+      "person": "p80",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v80:56",
+      "membership": "m80",
+      "person": "p80",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m80",
+      "venue": "v0",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m81",
+      "person": "p81",
+      "household": "h40",
+      "venue": "v0",
+      "start": "2026-07-02",
+      "end": "2026-11-19",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v81:21",
+      "membership": "m81",
+      "person": "p81",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v81:35",
+      "membership": "m81",
+      "person": "p81",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v81:42",
+      "membership": "m81",
+      "person": "p81",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v81:49",
+      "membership": "m81",
+      "person": "p81",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v81:56",
+      "membership": "m81",
+      "person": "p81",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c81",
+      "memberships": [
+        "m81"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c81",
+      "membership": "m81",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m82",
+      "person": "p82",
+      "household": "h41",
+      "venue": "v1",
+      "start": "2026-07-03",
+      "end": "2026-11-20",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v82:35",
+      "membership": "m82",
+      "person": "p82",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v82:42",
+      "membership": "m82",
+      "person": "p82",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v82:49",
+      "membership": "m82",
+      "person": "p82",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v82:56",
+      "membership": "m82",
+      "person": "p82",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m83",
+      "person": "p83",
+      "household": "h41",
+      "venue": "v2",
+      "start": "2026-07-04",
+      "end": "2026-11-21",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v83:28",
+      "membership": "m83",
+      "person": "p83",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v83:35",
+      "membership": "m83",
+      "person": "p83",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v83:42",
+      "membership": "m83",
+      "person": "p83",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v83:49",
+      "membership": "m83",
+      "person": "p83",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m84",
+      "person": "p84",
+      "household": "h42",
+      "venue": "v0",
+      "start": "2026-07-05",
+      "end": "2026-11-22",
+      "kind": "family"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m84",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v84:28",
+      "membership": "m84",
+      "person": "p84",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v84:35",
+      "membership": "m84",
+      "person": "p84",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v84:56",
+      "membership": "m84",
+      "person": "p84",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c84",
+      "memberships": [
+        "m84"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c84",
+      "membership": "m84",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m85",
+      "person": "p85",
+      "household": "h42",
+      "venue": "v1",
+      "start": "2026-07-06",
+      "end": "2026-11-23",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v85:21",
+      "membership": "m85",
+      "person": "p85",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v85:28",
+      "membership": "m85",
+      "person": "p85",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v85:35",
+      "membership": "m85",
+      "person": "p85",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v85:42",
+      "membership": "m85",
+      "person": "p85",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v85:49",
+      "membership": "m85",
+      "person": "p85",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v85:56",
+      "membership": "m85",
+      "person": "p85",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m86",
+      "person": "p86",
+      "household": "h43",
+      "venue": "v2",
+      "start": "2026-07-07",
+      "end": "2026-11-24",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v86:21",
+      "membership": "m86",
+      "person": "p86",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v86:28",
+      "membership": "m86",
+      "person": "p86",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v86:35",
+      "membership": "m86",
+      "person": "p86",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m87",
+      "person": "p87",
+      "household": "h43",
+      "venue": "v0",
+      "start": "2026-07-08",
+      "end": "2026-11-25",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v87:28",
+      "membership": "m87",
+      "person": "p87",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v87:35",
+      "membership": "m87",
+      "person": "p87",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c87",
+      "memberships": [
+        "m87"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c87",
+      "membership": "m87",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m88",
+      "person": "p88",
+      "household": "h44",
+      "venue": "v1",
+      "start": "2026-07-09",
+      "end": "2026-11-26",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v88:21",
+      "membership": "m88",
+      "person": "p88",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v88:28",
+      "membership": "m88",
+      "person": "p88",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v88:35",
+      "membership": "m88",
+      "person": "p88",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v88:49",
+      "membership": "m88",
+      "person": "p88",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m88",
+      "venue": "v2",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m89",
+      "person": "p89",
+      "household": "h44",
+      "venue": "v2",
+      "start": "2026-07-10",
+      "end": "2026-11-27",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v89:21",
+      "membership": "m89",
+      "person": "p89",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v89:35",
+      "membership": "m89",
+      "person": "p89",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v89:42",
+      "membership": "m89",
+      "person": "p89",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v89:49",
+      "membership": "m89",
+      "person": "p89",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m90",
+      "person": "p90",
+      "household": "h45",
+      "venue": "v0",
+      "start": "2026-07-11",
+      "end": "2026-11-28",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v90:35",
+      "membership": "m90",
+      "person": "p90",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c90",
+      "memberships": [
+        "m90"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c90",
+      "membership": "m90",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m91",
+      "person": "p91",
+      "household": "h45",
+      "venue": "v1",
+      "start": "2026-07-12",
+      "end": "2026-11-29",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m91",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v91:21",
+      "membership": "m91",
+      "person": "p91",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v91:28",
+      "membership": "m91",
+      "person": "p91",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v91:35",
+      "membership": "m91",
+      "person": "p91",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m92",
+      "person": "p92",
+      "household": "h46",
+      "venue": "v2",
+      "start": "2026-07-13",
+      "end": "2026-11-30",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v92:21",
+      "membership": "m92",
+      "person": "p92",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v92:35",
+      "membership": "m92",
+      "person": "p92",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v92:42",
+      "membership": "m92",
+      "person": "p92",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v92:49",
+      "membership": "m92",
+      "person": "p92",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m93",
+      "person": "p93",
+      "household": "h46",
+      "venue": "v0",
+      "start": "2026-07-14",
+      "end": "2026-12-01",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v93:28",
+      "membership": "m93",
+      "person": "p93",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v93:35",
+      "membership": "m93",
+      "person": "p93",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v93:42",
+      "membership": "m93",
+      "person": "p93",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v93:56",
+      "membership": "m93",
+      "person": "p93",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c93",
+      "memberships": [
+        "m93"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c93",
+      "membership": "m93",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m94",
+      "person": "p94",
+      "household": "h47",
+      "venue": "v1",
+      "start": "2026-07-15",
+      "end": "2026-12-02",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v94:35",
+      "membership": "m94",
+      "person": "p94",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v94:42",
+      "membership": "m94",
+      "person": "p94",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v94:49",
+      "membership": "m94",
+      "person": "p94",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v94:56",
+      "membership": "m94",
+      "person": "p94",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m95",
+      "person": "p95",
+      "household": "h47",
+      "venue": "v2",
+      "start": "2026-07-16",
+      "end": "2026-12-03",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v95:35",
+      "membership": "m95",
+      "person": "p95",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v95:42",
+      "membership": "m95",
+      "person": "p95",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v95:56",
+      "membership": "m95",
+      "person": "p95",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m96",
+      "person": "p96",
+      "household": "h48",
+      "venue": "v0",
+      "start": "2026-07-17",
+      "end": "2026-12-04",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v96:21",
+      "membership": "m96",
+      "person": "p96",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v96:28",
+      "membership": "m96",
+      "person": "p96",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v96:42",
+      "membership": "m96",
+      "person": "p96",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v96:49",
+      "membership": "m96",
+      "person": "p96",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v96:56",
+      "membership": "m96",
+      "person": "p96",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m96",
+      "venue": "v1",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c96",
+      "memberships": [
+        "m96"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c96",
+      "membership": "m96",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m97",
+      "person": "p97",
+      "household": "h48",
+      "venue": "v1",
+      "start": "2026-07-18",
+      "end": "2026-12-05",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v97:28",
+      "membership": "m97",
+      "person": "p97",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v97:35",
+      "membership": "m97",
+      "person": "p97",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v97:42",
+      "membership": "m97",
+      "person": "p97",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v97:49",
+      "membership": "m97",
+      "person": "p97",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m98",
+      "person": "p98",
+      "household": "h49",
+      "venue": "v2",
+      "start": "2026-07-19",
+      "end": "2026-12-06",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m98",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v98:35",
+      "membership": "m98",
+      "person": "p98",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v98:56",
+      "membership": "m98",
+      "person": "p98",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m99",
+      "person": "p99",
+      "household": "h49",
+      "venue": "v0",
+      "start": "2026-07-20",
+      "end": "2026-12-07",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v99:28",
+      "membership": "m99",
+      "person": "p99",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v99:35",
+      "membership": "m99",
+      "person": "p99",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v99:42",
+      "membership": "m99",
+      "person": "p99",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v99:56",
+      "membership": "m99",
+      "person": "p99",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c99",
+      "memberships": [
+        "m99"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c99",
+      "membership": "m99",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m100",
+      "person": "p100",
+      "household": "h50",
+      "venue": "v1",
+      "start": "2026-07-01",
+      "end": "2026-08-30",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v100:21",
+      "membership": "m100",
+      "person": "p100",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v100:28",
+      "membership": "m100",
+      "person": "p100",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v100:35",
+      "membership": "m100",
+      "person": "p100",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v100:56",
+      "membership": "m100",
+      "person": "p100",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m101",
+      "person": "p101",
+      "household": "h50",
+      "venue": "v2",
+      "start": "2026-07-02",
+      "end": "2026-08-31",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v101:21",
+      "membership": "m101",
+      "person": "p101",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v101:28",
+      "membership": "m101",
+      "person": "p101",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v101:35",
+      "membership": "m101",
+      "person": "p101",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v101:42",
+      "membership": "m101",
+      "person": "p101",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v101:49",
+      "membership": "m101",
+      "person": "p101",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v101:56",
+      "membership": "m101",
+      "person": "p101",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m102",
+      "person": "p102",
+      "household": "h51",
+      "venue": "v0",
+      "start": "2026-07-03",
+      "end": "2026-09-01",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v102:21",
+      "membership": "m102",
+      "person": "p102",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v102:42",
+      "membership": "m102",
+      "person": "p102",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v102:49",
+      "membership": "m102",
+      "person": "p102",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v102:56",
+      "membership": "m102",
+      "person": "p102",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c102",
+      "memberships": [
+        "m102"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c102",
+      "membership": "m102",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m103",
+      "person": "p103",
+      "household": "h51",
+      "venue": "v1",
+      "start": "2026-07-04",
+      "end": "2026-09-02",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v103:21",
+      "membership": "m103",
+      "person": "p103",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v103:28",
+      "membership": "m103",
+      "person": "p103",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v103:49",
+      "membership": "m103",
+      "person": "p103",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v103:56",
+      "membership": "m103",
+      "person": "p103",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m104",
+      "person": "p104",
+      "household": "h52",
+      "venue": "v2",
+      "start": "2026-07-05",
+      "end": "2026-09-03",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v104:21",
+      "membership": "m104",
+      "person": "p104",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v104:42",
+      "membership": "m104",
+      "person": "p104",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v104:56",
+      "membership": "m104",
+      "person": "p104",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m104",
+      "venue": "v0",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m105",
+      "person": "p105",
+      "household": "h52",
+      "venue": "v0",
+      "start": "2026-07-06",
+      "end": "2026-09-04",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m105",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v105:21",
+      "membership": "m105",
+      "person": "p105",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v105:35",
+      "membership": "m105",
+      "person": "p105",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c105",
+      "memberships": [
+        "m105"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c105",
+      "membership": "m105",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m106",
+      "person": "p106",
+      "household": "h53",
+      "venue": "v1",
+      "start": "2026-07-07",
+      "end": "2026-09-05",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v106:21",
+      "membership": "m106",
+      "person": "p106",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v106:28",
+      "membership": "m106",
+      "person": "p106",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v106:35",
+      "membership": "m106",
+      "person": "p106",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m107",
+      "person": "p107",
+      "household": "h53",
+      "venue": "v2",
+      "start": "2026-07-08",
+      "end": "2026-09-06",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v107:35",
+      "membership": "m107",
+      "person": "p107",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v107:42",
+      "membership": "m107",
+      "person": "p107",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v107:49",
+      "membership": "m107",
+      "person": "p107",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v107:56",
+      "membership": "m107",
+      "person": "p107",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m108",
+      "person": "p108",
+      "household": "h54",
+      "venue": "v0",
+      "start": "2026-07-09",
+      "end": "2026-09-07",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v108:21",
+      "membership": "m108",
+      "person": "p108",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v108:42",
+      "membership": "m108",
+      "person": "p108",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v108:49",
+      "membership": "m108",
+      "person": "p108",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v108:56",
+      "membership": "m108",
+      "person": "p108",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c108",
+      "memberships": [
+        "m108"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c108",
+      "membership": "m108",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m109",
+      "person": "p109",
+      "household": "h54",
+      "venue": "v1",
+      "start": "2026-07-10",
+      "end": "2026-09-08",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v109:21",
+      "membership": "m109",
+      "person": "p109",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v109:42",
+      "membership": "m109",
+      "person": "p109",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v109:49",
+      "membership": "m109",
+      "person": "p109",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v109:56",
+      "membership": "m109",
+      "person": "p109",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m110",
+      "person": "p110",
+      "household": "h55",
+      "venue": "v2",
+      "start": "2026-07-11",
+      "end": "2026-09-09",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v110:21",
+      "membership": "m110",
+      "person": "p110",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v110:42",
+      "membership": "m110",
+      "person": "p110",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v110:49",
+      "membership": "m110",
+      "person": "p110",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m111",
+      "person": "p111",
+      "household": "h55",
+      "venue": "v0",
+      "start": "2026-07-12",
+      "end": "2026-09-10",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v111:21",
+      "membership": "m111",
+      "person": "p111",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v111:28",
+      "membership": "m111",
+      "person": "p111",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v111:35",
+      "membership": "m111",
+      "person": "p111",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v111:42",
+      "membership": "m111",
+      "person": "p111",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v111:49",
+      "membership": "m111",
+      "person": "p111",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c111",
+      "memberships": [
+        "m111"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c111",
+      "membership": "m111",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m112",
+      "person": "p112",
+      "household": "h56",
+      "venue": "v1",
+      "start": "2026-07-13",
+      "end": "2026-09-11",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m112",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v112:21",
+      "membership": "m112",
+      "person": "p112",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v112:28",
+      "membership": "m112",
+      "person": "p112",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v112:56",
+      "membership": "m112",
+      "person": "p112",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m112",
+      "venue": "v2",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m113",
+      "person": "p113",
+      "household": "h56",
+      "venue": "v2",
+      "start": "2026-07-14",
+      "end": "2026-09-12",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v113:21",
+      "membership": "m113",
+      "person": "p113",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v113:28",
+      "membership": "m113",
+      "person": "p113",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v113:35",
+      "membership": "m113",
+      "person": "p113",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v113:42",
+      "membership": "m113",
+      "person": "p113",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v113:49",
+      "membership": "m113",
+      "person": "p113",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v113:56",
+      "membership": "m113",
+      "person": "p113",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m114",
+      "person": "p114",
+      "household": "h57",
+      "venue": "v0",
+      "start": "2026-07-15",
+      "end": "2026-09-13",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v114:21",
+      "membership": "m114",
+      "person": "p114",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v114:28",
+      "membership": "m114",
+      "person": "p114",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v114:35",
+      "membership": "m114",
+      "person": "p114",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v114:42",
+      "membership": "m114",
+      "person": "p114",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v114:56",
+      "membership": "m114",
+      "person": "p114",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c114",
+      "memberships": [
+        "m114"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c114",
+      "membership": "m114",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m115",
+      "person": "p115",
+      "household": "h57",
+      "venue": "v1",
+      "start": "2026-07-16",
+      "end": "2026-09-14",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v115:21",
+      "membership": "m115",
+      "person": "p115",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v115:28",
+      "membership": "m115",
+      "person": "p115",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v115:42",
+      "membership": "m115",
+      "person": "p115",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v115:49",
+      "membership": "m115",
+      "person": "p115",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m116",
+      "person": "p116",
+      "household": "h58",
+      "venue": "v2",
+      "start": "2026-07-17",
+      "end": "2026-09-15",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v116:21",
+      "membership": "m116",
+      "person": "p116",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v116:28",
+      "membership": "m116",
+      "person": "p116",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v116:35",
+      "membership": "m116",
+      "person": "p116",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v116:42",
+      "membership": "m116",
+      "person": "p116",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v116:49",
+      "membership": "m116",
+      "person": "p116",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m117",
+      "person": "p117",
+      "household": "h58",
+      "venue": "v0",
+      "start": "2026-07-18",
+      "end": "2026-09-16",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v117:28",
+      "membership": "m117",
+      "person": "p117",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v117:35",
+      "membership": "m117",
+      "person": "p117",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v117:42",
+      "membership": "m117",
+      "person": "p117",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c117",
+      "memberships": [
+        "m117"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c117",
+      "membership": "m117",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m118",
+      "person": "p118",
+      "household": "h59",
+      "venue": "v1",
+      "start": "2026-07-19",
+      "end": "2026-09-17",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v118:28",
+      "membership": "m118",
+      "person": "p118",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v118:42",
+      "membership": "m118",
+      "person": "p118",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v118:49",
+      "membership": "m118",
+      "person": "p118",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v118:56",
+      "membership": "m118",
+      "person": "p118",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m119",
+      "person": "p119",
+      "household": "h59",
+      "venue": "v2",
+      "start": "2026-07-20",
+      "end": "2026-09-18",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m119",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v119:35",
+      "membership": "m119",
+      "person": "p119",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m120",
+      "person": "p120",
+      "household": "h60",
+      "venue": "v0",
+      "start": "2026-07-01",
+      "end": "2026-09-19",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v120:21",
+      "membership": "m120",
+      "person": "p120",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v120:56",
+      "membership": "m120",
+      "person": "p120",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m120",
+      "venue": "v1",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c120",
+      "memberships": [
+        "m120"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c120",
+      "membership": "m120",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m121",
+      "person": "p121",
+      "household": "h60",
+      "venue": "v1",
+      "start": "2026-07-02",
+      "end": "2026-09-20",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v121:21",
+      "membership": "m121",
+      "person": "p121",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v121:28",
+      "membership": "m121",
+      "person": "p121",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v121:35",
+      "membership": "m121",
+      "person": "p121",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m122",
+      "person": "p122",
+      "household": "h61",
+      "venue": "v2",
+      "start": "2026-07-03",
+      "end": "2026-09-21",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v122:21",
+      "membership": "m122",
+      "person": "p122",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v122:35",
+      "membership": "m122",
+      "person": "p122",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v122:42",
+      "membership": "m122",
+      "person": "p122",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v122:49",
+      "membership": "m122",
+      "person": "p122",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v122:56",
+      "membership": "m122",
+      "person": "p122",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m123",
+      "person": "p123",
+      "household": "h61",
+      "venue": "v0",
+      "start": "2026-07-04",
+      "end": "2026-09-22",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v123:21",
+      "membership": "m123",
+      "person": "p123",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v123:35",
+      "membership": "m123",
+      "person": "p123",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v123:42",
+      "membership": "m123",
+      "person": "p123",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v123:49",
+      "membership": "m123",
+      "person": "p123",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c123",
+      "memberships": [
+        "m123"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c123",
+      "membership": "m123",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m124",
+      "person": "p124",
+      "household": "h62",
+      "venue": "v1",
+      "start": "2026-07-05",
+      "end": "2026-09-23",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v124:28",
+      "membership": "m124",
+      "person": "p124",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v124:35",
+      "membership": "m124",
+      "person": "p124",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v124:49",
+      "membership": "m124",
+      "person": "p124",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v124:56",
+      "membership": "m124",
+      "person": "p124",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m125",
+      "person": "p125",
+      "household": "h62",
+      "venue": "v2",
+      "start": "2026-07-06",
+      "end": "2026-09-24",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v125:21",
+      "membership": "m125",
+      "person": "p125",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v125:28",
+      "membership": "m125",
+      "person": "p125",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v125:35",
+      "membership": "m125",
+      "person": "p125",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v125:49",
+      "membership": "m125",
+      "person": "p125",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v125:56",
+      "membership": "m125",
+      "person": "p125",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m126",
+      "person": "p126",
+      "household": "h63",
+      "venue": "v0",
+      "start": "2026-07-07",
+      "end": "2026-09-25",
+      "kind": "family"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m126",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v126:28",
+      "membership": "m126",
+      "person": "p126",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c126",
+      "memberships": [
+        "m126"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c126",
+      "membership": "m126",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m127",
+      "person": "p127",
+      "household": "h63",
+      "venue": "v1",
+      "start": "2026-07-08",
+      "end": "2026-09-26",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v127:21",
+      "membership": "m127",
+      "person": "p127",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v127:28",
+      "membership": "m127",
+      "person": "p127",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v127:35",
+      "membership": "m127",
+      "person": "p127",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v127:49",
+      "membership": "m127",
+      "person": "p127",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v127:56",
+      "membership": "m127",
+      "person": "p127",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m128",
+      "person": "p128",
+      "household": "h64",
+      "venue": "v2",
+      "start": "2026-07-09",
+      "end": "2026-09-27",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v128:28",
+      "membership": "m128",
+      "person": "p128",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v128:42",
+      "membership": "m128",
+      "person": "p128",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v128:56",
+      "membership": "m128",
+      "person": "p128",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m128",
+      "venue": "v0",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m129",
+      "person": "p129",
+      "household": "h64",
+      "venue": "v0",
+      "start": "2026-07-10",
+      "end": "2026-09-28",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v129:28",
+      "membership": "m129",
+      "person": "p129",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v129:56",
+      "membership": "m129",
+      "person": "p129",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c129",
+      "memberships": [
+        "m129"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c129",
+      "membership": "m129",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m130",
+      "person": "p130",
+      "household": "h65",
+      "venue": "v1",
+      "start": "2026-07-11",
+      "end": "2026-09-29",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v130:21",
+      "membership": "m130",
+      "person": "p130",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v130:28",
+      "membership": "m130",
+      "person": "p130",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v130:35",
+      "membership": "m130",
+      "person": "p130",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v130:42",
+      "membership": "m130",
+      "person": "p130",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v130:49",
+      "membership": "m130",
+      "person": "p130",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m131",
+      "person": "p131",
+      "household": "h65",
+      "venue": "v2",
+      "start": "2026-07-12",
+      "end": "2026-09-30",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v131:21",
+      "membership": "m131",
+      "person": "p131",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v131:28",
+      "membership": "m131",
+      "person": "p131",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v131:35",
+      "membership": "m131",
+      "person": "p131",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v131:42",
+      "membership": "m131",
+      "person": "p131",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v131:56",
+      "membership": "m131",
+      "person": "p131",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m132",
+      "person": "p132",
+      "household": "h66",
+      "venue": "v0",
+      "start": "2026-07-13",
+      "end": "2026-10-01",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v132:21",
+      "membership": "m132",
+      "person": "p132",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v132:28",
+      "membership": "m132",
+      "person": "p132",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v132:35",
+      "membership": "m132",
+      "person": "p132",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v132:42",
+      "membership": "m132",
+      "person": "p132",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v132:49",
+      "membership": "m132",
+      "person": "p132",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v132:56",
+      "membership": "m132",
+      "person": "p132",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c132",
+      "memberships": [
+        "m132"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c132",
+      "membership": "m132",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m133",
+      "person": "p133",
+      "household": "h66",
+      "venue": "v1",
+      "start": "2026-07-14",
+      "end": "2026-10-02",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m133",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v133:21",
+      "membership": "m133",
+      "person": "p133",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v133:28",
+      "membership": "m133",
+      "person": "p133",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v133:56",
+      "membership": "m133",
+      "person": "p133",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m134",
+      "person": "p134",
+      "household": "h67",
+      "venue": "v2",
+      "start": "2026-07-15",
+      "end": "2026-10-03",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v134:21",
+      "membership": "m134",
+      "person": "p134",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v134:42",
+      "membership": "m134",
+      "person": "p134",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v134:56",
+      "membership": "m134",
+      "person": "p134",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m135",
+      "person": "p135",
+      "household": "h67",
+      "venue": "v0",
+      "start": "2026-07-16",
+      "end": "2026-10-04",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v135:28",
+      "membership": "m135",
+      "person": "p135",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v135:42",
+      "membership": "m135",
+      "person": "p135",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v135:56",
+      "membership": "m135",
+      "person": "p135",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c135",
+      "memberships": [
+        "m135"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c135",
+      "membership": "m135",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m136",
+      "person": "p136",
+      "household": "h68",
+      "venue": "v1",
+      "start": "2026-07-17",
+      "end": "2026-10-05",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v136:28",
+      "membership": "m136",
+      "person": "p136",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v136:42",
+      "membership": "m136",
+      "person": "p136",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v136:49",
+      "membership": "m136",
+      "person": "p136",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v136:56",
+      "membership": "m136",
+      "person": "p136",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m136",
+      "venue": "v2",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m137",
+      "person": "p137",
+      "household": "h68",
+      "venue": "v2",
+      "start": "2026-07-18",
+      "end": "2026-10-06",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v137:21",
+      "membership": "m137",
+      "person": "p137",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v137:28",
+      "membership": "m137",
+      "person": "p137",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v137:49",
+      "membership": "m137",
+      "person": "p137",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v137:56",
+      "membership": "m137",
+      "person": "p137",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m138",
+      "person": "p138",
+      "household": "h69",
+      "venue": "v0",
+      "start": "2026-07-19",
+      "end": "2026-10-07",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v138:28",
+      "membership": "m138",
+      "person": "p138",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v138:35",
+      "membership": "m138",
+      "person": "p138",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v138:42",
+      "membership": "m138",
+      "person": "p138",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v138:49",
+      "membership": "m138",
+      "person": "p138",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v138:56",
+      "membership": "m138",
+      "person": "p138",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c138",
+      "memberships": [
+        "m138"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c138",
+      "membership": "m138",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m139",
+      "person": "p139",
+      "household": "h69",
+      "venue": "v1",
+      "start": "2026-07-20",
+      "end": "2026-10-08",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v139:35",
+      "membership": "m139",
+      "person": "p139",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v139:42",
+      "membership": "m139",
+      "person": "p139",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v139:49",
+      "membership": "m139",
+      "person": "p139",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v139:56",
+      "membership": "m139",
+      "person": "p139",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m140",
+      "person": "p140",
+      "household": "h70",
+      "venue": "v2",
+      "start": "2026-07-01",
+      "end": "2026-10-09",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m140",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v140:35",
+      "membership": "m140",
+      "person": "p140",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v140:56",
+      "membership": "m140",
+      "person": "p140",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m141",
+      "person": "p141",
+      "household": "h70",
+      "venue": "v0",
+      "start": "2026-07-02",
+      "end": "2026-10-10",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v141:28",
+      "membership": "m141",
+      "person": "p141",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v141:42",
+      "membership": "m141",
+      "person": "p141",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v141:49",
+      "membership": "m141",
+      "person": "p141",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v141:56",
+      "membership": "m141",
+      "person": "p141",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c141",
+      "memberships": [
+        "m141"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c141",
+      "membership": "m141",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m142",
+      "person": "p142",
+      "household": "h71",
+      "venue": "v1",
+      "start": "2026-07-03",
+      "end": "2026-10-11",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v142:21",
+      "membership": "m142",
+      "person": "p142",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v142:35",
+      "membership": "m142",
+      "person": "p142",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v142:42",
+      "membership": "m142",
+      "person": "p142",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v142:49",
+      "membership": "m142",
+      "person": "p142",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v142:56",
+      "membership": "m142",
+      "person": "p142",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m143",
+      "person": "p143",
+      "household": "h71",
+      "venue": "v2",
+      "start": "2026-07-04",
+      "end": "2026-10-12",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v143:21",
+      "membership": "m143",
+      "person": "p143",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v143:28",
+      "membership": "m143",
+      "person": "p143",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v143:35",
+      "membership": "m143",
+      "person": "p143",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v143:49",
+      "membership": "m143",
+      "person": "p143",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v143:56",
+      "membership": "m143",
+      "person": "p143",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m144",
+      "person": "p144",
+      "household": "h72",
+      "venue": "v0",
+      "start": "2026-07-05",
+      "end": "2026-10-13",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v144:21",
+      "membership": "m144",
+      "person": "p144",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v144:35",
+      "membership": "m144",
+      "person": "p144",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v144:42",
+      "membership": "m144",
+      "person": "p144",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v144:49",
+      "membership": "m144",
+      "person": "p144",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m144",
+      "venue": "v1",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c144",
+      "memberships": [
+        "m144"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c144",
+      "membership": "m144",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m145",
+      "person": "p145",
+      "household": "h72",
+      "venue": "v1",
+      "start": "2026-07-06",
+      "end": "2026-10-14",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v145:35",
+      "membership": "m145",
+      "person": "p145",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v145:56",
+      "membership": "m145",
+      "person": "p145",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m146",
+      "person": "p146",
+      "household": "h73",
+      "venue": "v2",
+      "start": "2026-07-07",
+      "end": "2026-10-15",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v146:21",
+      "membership": "m146",
+      "person": "p146",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v146:35",
+      "membership": "m146",
+      "person": "p146",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m147",
+      "person": "p147",
+      "household": "h73",
+      "venue": "v0",
+      "start": "2026-07-08",
+      "end": "2026-10-16",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m147",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v147:21",
+      "membership": "m147",
+      "person": "p147",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v147:56",
+      "membership": "m147",
+      "person": "p147",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c147",
+      "memberships": [
+        "m147"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c147",
+      "membership": "m147",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m148",
+      "person": "p148",
+      "household": "h74",
+      "venue": "v1",
+      "start": "2026-07-09",
+      "end": "2026-10-17",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v148:28",
+      "membership": "m148",
+      "person": "p148",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v148:35",
+      "membership": "m148",
+      "person": "p148",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v148:42",
+      "membership": "m148",
+      "person": "p148",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v148:49",
+      "membership": "m148",
+      "person": "p148",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v148:56",
+      "membership": "m148",
+      "person": "p148",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m149",
+      "person": "p149",
+      "household": "h74",
+      "venue": "v2",
+      "start": "2026-07-10",
+      "end": "2026-10-18",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v149:28",
+      "membership": "m149",
+      "person": "p149",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v149:35",
+      "membership": "m149",
+      "person": "p149",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v149:56",
+      "membership": "m149",
+      "person": "p149",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m150",
+      "person": "p150",
+      "household": "h75",
+      "venue": "v0",
+      "start": "2026-07-11",
+      "end": "2026-10-19",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v150:28",
+      "membership": "m150",
+      "person": "p150",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v150:35",
+      "membership": "m150",
+      "person": "p150",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v150:49",
+      "membership": "m150",
+      "person": "p150",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v150:56",
+      "membership": "m150",
+      "person": "p150",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c150",
+      "memberships": [
+        "m150"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c150",
+      "membership": "m150",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m151",
+      "person": "p151",
+      "household": "h75",
+      "venue": "v1",
+      "start": "2026-07-12",
+      "end": "2026-10-20",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v151:21",
+      "membership": "m151",
+      "person": "p151",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v151:28",
+      "membership": "m151",
+      "person": "p151",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v151:49",
+      "membership": "m151",
+      "person": "p151",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v151:56",
+      "membership": "m151",
+      "person": "p151",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m152",
+      "person": "p152",
+      "household": "h76",
+      "venue": "v2",
+      "start": "2026-07-13",
+      "end": "2026-10-21",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v152:21",
+      "membership": "m152",
+      "person": "p152",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v152:28",
+      "membership": "m152",
+      "person": "p152",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v152:42",
+      "membership": "m152",
+      "person": "p152",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v152:49",
+      "membership": "m152",
+      "person": "p152",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v152:56",
+      "membership": "m152",
+      "person": "p152",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m152",
+      "venue": "v0",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m153",
+      "person": "p153",
+      "household": "h76",
+      "venue": "v0",
+      "start": "2026-07-14",
+      "end": "2026-10-22",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v153:28",
+      "membership": "m153",
+      "person": "p153",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v153:35",
+      "membership": "m153",
+      "person": "p153",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v153:42",
+      "membership": "m153",
+      "person": "p153",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c153",
+      "memberships": [
+        "m153"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c153",
+      "membership": "m153",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m154",
+      "person": "p154",
+      "household": "h77",
+      "venue": "v1",
+      "start": "2026-07-15",
+      "end": "2026-10-23",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m154",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v154:28",
+      "membership": "m154",
+      "person": "p154",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m155",
+      "person": "p155",
+      "household": "h77",
+      "venue": "v2",
+      "start": "2026-07-16",
+      "end": "2026-10-24",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v155:21",
+      "membership": "m155",
+      "person": "p155",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v155:28",
+      "membership": "m155",
+      "person": "p155",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v155:35",
+      "membership": "m155",
+      "person": "p155",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v155:42",
+      "membership": "m155",
+      "person": "p155",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v155:49",
+      "membership": "m155",
+      "person": "p155",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v155:56",
+      "membership": "m155",
+      "person": "p155",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m156",
+      "person": "p156",
+      "household": "h78",
+      "venue": "v0",
+      "start": "2026-07-17",
+      "end": "2026-10-25",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v156:21",
+      "membership": "m156",
+      "person": "p156",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v156:28",
+      "membership": "m156",
+      "person": "p156",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v156:35",
+      "membership": "m156",
+      "person": "p156",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v156:49",
+      "membership": "m156",
+      "person": "p156",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c156",
+      "memberships": [
+        "m156"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c156",
+      "membership": "m156",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m157",
+      "person": "p157",
+      "household": "h78",
+      "venue": "v1",
+      "start": "2026-07-18",
+      "end": "2026-10-26",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v157:35",
+      "membership": "m157",
+      "person": "p157",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v157:42",
+      "membership": "m157",
+      "person": "p157",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v157:56",
+      "membership": "m157",
+      "person": "p157",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m158",
+      "person": "p158",
+      "household": "h79",
+      "venue": "v2",
+      "start": "2026-07-19",
+      "end": "2026-10-27",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v158:21",
+      "membership": "m158",
+      "person": "p158",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v158:28",
+      "membership": "m158",
+      "person": "p158",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v158:42",
+      "membership": "m158",
+      "person": "p158",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v158:49",
+      "membership": "m158",
+      "person": "p158",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m159",
+      "person": "p159",
+      "household": "h79",
+      "venue": "v0",
+      "start": "2026-07-20",
+      "end": "2026-10-28",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v159:28",
+      "membership": "m159",
+      "person": "p159",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v159:35",
+      "membership": "m159",
+      "person": "p159",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v159:42",
+      "membership": "m159",
+      "person": "p159",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v159:49",
+      "membership": "m159",
+      "person": "p159",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v159:56",
+      "membership": "m159",
+      "person": "p159",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c159",
+      "memberships": [
+        "m159"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c159",
+      "membership": "m159",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m160",
+      "person": "p160",
+      "household": "h80",
+      "venue": "v1",
+      "start": "2026-07-01",
+      "end": "2026-10-29",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v160:28",
+      "membership": "m160",
+      "person": "p160",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v160:42",
+      "membership": "m160",
+      "person": "p160",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v160:49",
+      "membership": "m160",
+      "person": "p160",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m160",
+      "venue": "v2",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m161",
+      "person": "p161",
+      "household": "h80",
+      "venue": "v2",
+      "start": "2026-07-02",
+      "end": "2026-10-30",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m161",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v161:21",
+      "membership": "m161",
+      "person": "p161",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v161:35",
+      "membership": "m161",
+      "person": "p161",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v161:56",
+      "membership": "m161",
+      "person": "p161",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m162",
+      "person": "p162",
+      "household": "h81",
+      "venue": "v0",
+      "start": "2026-07-03",
+      "end": "2026-10-31",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v162:28",
+      "membership": "m162",
+      "person": "p162",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v162:35",
+      "membership": "m162",
+      "person": "p162",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v162:42",
+      "membership": "m162",
+      "person": "p162",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v162:56",
+      "membership": "m162",
+      "person": "p162",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c162",
+      "memberships": [
+        "m162"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c162",
+      "membership": "m162",
+      "outcome": "failed"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m163",
+      "person": "p163",
+      "household": "h81",
+      "venue": "v1",
+      "start": "2026-07-04",
+      "end": "2026-11-01",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v163:21",
+      "membership": "m163",
+      "person": "p163",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v163:28",
+      "membership": "m163",
+      "person": "p163",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v163:49",
+      "membership": "m163",
+      "person": "p163",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v163:56",
+      "membership": "m163",
+      "person": "p163",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m164",
+      "person": "p164",
+      "household": "h82",
+      "venue": "v2",
+      "start": "2026-07-05",
+      "end": "2026-11-02",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v164:21",
+      "membership": "m164",
+      "person": "p164",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v164:28",
+      "membership": "m164",
+      "person": "p164",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v164:35",
+      "membership": "m164",
+      "person": "p164",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v164:42",
+      "membership": "m164",
+      "person": "p164",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v164:49",
+      "membership": "m164",
+      "person": "p164",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v164:56",
+      "membership": "m164",
+      "person": "p164",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m165",
+      "person": "p165",
+      "household": "h82",
+      "venue": "v0",
+      "start": "2026-07-06",
+      "end": "2026-11-03",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v165:28",
+      "membership": "m165",
+      "person": "p165",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v165:35",
+      "membership": "m165",
+      "person": "p165",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v165:49",
+      "membership": "m165",
+      "person": "p165",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v165:56",
+      "membership": "m165",
+      "person": "p165",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c165",
+      "memberships": [
+        "m165"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c165",
+      "membership": "m165",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m166",
+      "person": "p166",
+      "household": "h83",
+      "venue": "v1",
+      "start": "2026-07-07",
+      "end": "2026-11-04",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v166:35",
+      "membership": "m166",
+      "person": "p166",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v166:49",
+      "membership": "m166",
+      "person": "p166",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v166:56",
+      "membership": "m166",
+      "person": "p166",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m167",
+      "person": "p167",
+      "household": "h83",
+      "venue": "v2",
+      "start": "2026-07-08",
+      "end": "2026-11-05",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v167:21",
+      "membership": "m167",
+      "person": "p167",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v167:35",
+      "membership": "m167",
+      "person": "p167",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v167:56",
+      "membership": "m167",
+      "person": "p167",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m168",
+      "person": "p168",
+      "household": "h84",
+      "venue": "v0",
+      "start": "2026-07-09",
+      "end": "2026-11-06",
+      "kind": "family"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m168",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v168:35",
+      "membership": "m168",
+      "person": "p168",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m168",
+      "venue": "v1",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c168",
+      "memberships": [
+        "m168"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c168",
+      "membership": "m168",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m169",
+      "person": "p169",
+      "household": "h84",
+      "venue": "v1",
+      "start": "2026-07-10",
+      "end": "2026-11-07",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v169:21",
+      "membership": "m169",
+      "person": "p169",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v169:42",
+      "membership": "m169",
+      "person": "p169",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v169:49",
+      "membership": "m169",
+      "person": "p169",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m170",
+      "person": "p170",
+      "household": "h85",
+      "venue": "v2",
+      "start": "2026-07-11",
+      "end": "2026-11-08",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v170:28",
+      "membership": "m170",
+      "person": "p170",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v170:35",
+      "membership": "m170",
+      "person": "p170",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v170:56",
+      "membership": "m170",
+      "person": "p170",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m171",
+      "person": "p171",
+      "household": "h85",
+      "venue": "v0",
+      "start": "2026-07-12",
+      "end": "2026-11-09",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v171:21",
+      "membership": "m171",
+      "person": "p171",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v171:35",
+      "membership": "m171",
+      "person": "p171",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v171:42",
+      "membership": "m171",
+      "person": "p171",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v171:56",
+      "membership": "m171",
+      "person": "p171",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c171",
+      "memberships": [
+        "m171"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c171",
+      "membership": "m171",
+      "outcome": "declined"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m172",
+      "person": "p172",
+      "household": "h86",
+      "venue": "v1",
+      "start": "2026-07-13",
+      "end": "2026-11-10",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v172:21",
+      "membership": "m172",
+      "person": "p172",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v172:28",
+      "membership": "m172",
+      "person": "p172",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v172:35",
+      "membership": "m172",
+      "person": "p172",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m173",
+      "person": "p173",
+      "household": "h86",
+      "venue": "v2",
+      "start": "2026-07-14",
+      "end": "2026-11-11",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v173:21",
+      "membership": "m173",
+      "person": "p173",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v173:28",
+      "membership": "m173",
+      "person": "p173",
+      "at": "2026-07-29",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v173:49",
+      "membership": "m173",
+      "person": "p173",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v173:56",
+      "membership": "m173",
+      "person": "p173",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m174",
+      "person": "p174",
+      "household": "h87",
+      "venue": "v0",
+      "start": "2026-07-15",
+      "end": "2026-11-12",
+      "kind": "family"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v174:28",
+      "membership": "m174",
+      "person": "p174",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v174:35",
+      "membership": "m174",
+      "person": "p174",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v174:49",
+      "membership": "m174",
+      "person": "p174",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v174:56",
+      "membership": "m174",
+      "person": "p174",
+      "at": "2026-08-26",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c174",
+      "memberships": [
+        "m174"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c174",
+      "membership": "m174",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m175",
+      "person": "p175",
+      "household": "h87",
+      "venue": "v1",
+      "start": "2026-07-16",
+      "end": "2026-11-13",
+      "kind": "individual"
+    }
+  ],
+  [
+    "memberships.pause",
+    {
+      "id": "m175",
+      "start": "2026-08-10",
+      "end": "2026-08-20"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v175:35",
+      "membership": "m175",
+      "person": "p175",
+      "at": "2026-08-05",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m176",
+      "person": "p176",
+      "household": "h88",
+      "venue": "v2",
+      "start": "2026-07-17",
+      "end": "2026-11-14",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v176:21",
+      "membership": "m176",
+      "person": "p176",
+      "at": "2026-07-22",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v176:35",
+      "membership": "m176",
+      "person": "p176",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v176:42",
+      "membership": "m176",
+      "person": "p176",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "memberships.transfer",
+    {
+      "id": "m176",
+      "venue": "v0",
+      "effective": "2026-08-25"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m177",
+      "person": "p177",
+      "household": "h88",
+      "venue": "v0",
+      "start": "2026-07-18",
+      "end": "2026-11-15",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v177:21",
+      "membership": "m177",
+      "person": "p177",
+      "at": "2026-07-22",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v177:28",
+      "membership": "m177",
+      "person": "p177",
+      "at": "2026-07-29",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v177:35",
+      "membership": "m177",
+      "person": "p177",
+      "at": "2026-08-05",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v177:42",
+      "membership": "m177",
+      "person": "p177",
+      "at": "2026-08-12",
+      "venue": "v0"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v177:49",
+      "membership": "m177",
+      "person": "p177",
+      "at": "2026-08-19",
+      "venue": "v0"
+    }
+  ],
+  [
+    "care.plan",
+    {
+      "id": "c177",
+      "memberships": [
+        "m177"
+      ],
+      "at": "2026-08-25",
+      "limit": 1
+    }
+  ],
+  [
+    "care.finish",
+    {
+      "id": "c177",
+      "membership": "m177",
+      "outcome": "reached"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m178",
+      "person": "p178",
+      "household": "h89",
+      "venue": "v1",
+      "start": "2026-07-19",
+      "end": "2026-11-16",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v178:21",
+      "membership": "m178",
+      "person": "p178",
+      "at": "2026-07-22",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v178:28",
+      "membership": "m178",
+      "person": "p178",
+      "at": "2026-07-29",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v178:42",
+      "membership": "m178",
+      "person": "p178",
+      "at": "2026-08-12",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v178:49",
+      "membership": "m178",
+      "person": "p178",
+      "at": "2026-08-19",
+      "venue": "v1"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v178:56",
+      "membership": "m178",
+      "person": "p178",
+      "at": "2026-08-26",
+      "venue": "v1"
+    }
+  ],
+  [
+    "memberships.enroll",
+    {
+      "id": "m179",
+      "person": "p179",
+      "household": "h89",
+      "venue": "v2",
+      "start": "2026-07-20",
+      "end": "2026-11-17",
+      "kind": "individual"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v179:35",
+      "membership": "m179",
+      "person": "p179",
+      "at": "2026-08-05",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v179:42",
+      "membership": "m179",
+      "person": "p179",
+      "at": "2026-08-12",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v179:49",
+      "membership": "m179",
+      "person": "p179",
+      "at": "2026-08-19",
+      "venue": "v2"
+    }
+  ],
+  [
+    "attendance.checkin",
+    {
+      "id": "v179:56",
+      "membership": "m179",
+      "person": "p179",
+      "at": "2026-08-26",
+      "venue": "v2"
+    }
+  ]
+]
